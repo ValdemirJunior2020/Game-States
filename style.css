@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+    background-image: url('blank_states_img.gif'); /* Set your map image */
+    background-size: contain;
+}
+
+#state-input {
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
